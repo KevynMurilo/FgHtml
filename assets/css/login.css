@@ -1,0 +1,120 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .login-card {
+    max-width: 900px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .image-section {
+    flex: 1;
+    background: linear-gradient(135deg, #14025c, #2d0a8b);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+  }
+  
+  .image-section img {
+    max-width: 150px;
+    margin-bottom: 20px;
+    filter: brightness(0) invert(1);
+  }
+  
+  .image-section h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .image-section p {
+    font-size: 1rem;
+  }
+  
+  .login-section {
+    flex: 1;
+    padding: 40px 30px;
+  }
+  
+  .login-section h2 {
+    text-align: center;
+    color: #14025c;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  .form-control {
+    height: 45px;
+    border-radius: 8px;
+  }
+  
+  .form-control:focus {
+    border-color: #14025c;
+    box-shadow: 0 0 5px rgba(20, 2, 92, 0.3);
+  }
+  
+  .btn-primary {
+    height: 45px;
+    border-radius: 8px;
+    font-weight: bold;
+    background-color: #14025c;
+    border: none;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2d0a8b;
+  }
+  
+  .login-footer {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .login-footer a {
+    color: #14025c;
+    text-decoration: none;
+  }
+  
+  .login-footer a:hover {
+    text-decoration: underline;
+  }
+  
+  @media (max-width: 768px) {
+    .login-card {
+      flex-direction: column;
+    }
+  
+    .image-section {
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .image-section img {
+      max-width: 100px;
+    }
+  
+    .login-section {
+      padding: 20px;
+    }
+  }
+  

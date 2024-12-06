@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html class="no-js" lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <!-- Site Title -->
+        <title>FG Centro Educacional - Educação de Qualidade</title>
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="assets/css/venobox.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/keyframe-animation.css">
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/daterangepicker.css">
+        <link rel="stylesheet" href="assets/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+
+    <body>
+    <!-- header-area-start -->
+    <header class="header header-3 sticky-active">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-inner">
+                    <div class="top-bar-left">
+                        <ul class="top-bar-list">
+                            <li><i class="fa-regular fa-phone"></i><a href="https://wa.me/556133994549">(61) 3399-4549</a></li>
+                            <li><i class="fa-regular fa-location-dot"></i><a href="https://www.google.com/maps?ll=-15.884825,-48.018761&z=16&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=16391685448053457736" target="_blank"><span>QS 6 CONJ 01 LOTE 15 - Riacho Fundo I, Brasília - DF</span></a></li>
+                            <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/556185443037"><span>(61) 9 8544-3037</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <div class="register-box">
+                            <div class="icon"><i class="fa-regular fa-user"></i></div>
+                            <a href="#">Login / Register</a>
+                        </div>
+                        <div class="top-social-wrap">
+                            <span>Siga-nos</span>
+                            <ul class="social-list">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="primary-header">
+            <div class="container">
+                <div class="primary-header-inner">
+                    <div class="header-logo d-lg-block">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo-1.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header-menu-wrap">
+                        <div class="mobile-menu-items">
+                            <ul class="sub-menu">
+                                <li class="active">
+                                    <a href="index.html">Início</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="course.html">Cursos</a>
+                                    <ul>
+                                        <li><a href="course-details-eja.html">EJA/EAD</a></li>
+                                        <li><a href="course-details-fundamental.html">Ensino Fundamental</a></li>
+                                        <li><a href="course-details-medio.html">Ensino Médio</a></li>
+                                        <li class="menu-item-has-children">
+                                            <a href="course.html">Cursos Técnicos</a>
+                                            <ul>
+                                                <li><a href="course-details-eletrotecnica.html">Eletrotécnica</a></li>
+                                                <li><a href="course-details-mecanica.html">Mecânica</a></li>
+                                                <li><a href="course-details-agrimensura.html">Agrimensura</a></li>
+    
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="about.html">Quem somos</a>
+                                </li>
+                                <li class="">
+                                    <a href="blog-grid.html">Blog</a>
+                                </li>
+                                <li class="">
+                                    <a href="contact.html">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.header-menu-wrap -->
+                    <div class="header-right-wrap">
+                        <div class="header-right">
+                            <!-- Botão para Fazer Login ou Entrar -->
+                            <a href="login.html" class="ed-primary-btn header-btn">Fazer Login</a>
+                            <!-- Logo Oculta em Telas Maiores -->
+                            <div class="header-logo d-none d-lg-none">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/logo-1.png" alt="Logo">
+                                </a>
+                            </div>
+                            <!-- Menu Lateral Mobile -->
+                            <div class="header-right-item d-lg-none d-md-block">
+                                <a href="javascript:void(0)" class="mobile-side-menu-toggle">
+                                    <i class="fa-sharp fa-solid fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /.header-right -->
+                    </div>
+                </div>
+                <!-- /.primary-header-inner -->
+            </div>
+        </div>
+    </header>
+    <!-- /.Main Header -->
+
+        <div id="popup-search-box">
+            <div class="box-inner-wrap d-flex align-items-center">
+                <form id="form" action="#" method="get" role="search">
+                    <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+                </form>
+                <div class="search-close"><i class="fa-sharp fa-regular fa-xmark"></i></div>
+            </div>
+        </div>
+        <!-- /#popup-search-box -->
+
+        <div class="mobile-side-menu">
+            <div class="side-menu-content">
+                <div class="side-menu-head">
+                    <a href="index.html"><img src="assets/img/logo/logo-1.png" alt="logo"></a>
+                    <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
+                </div>
+                <div class="side-menu-wrap"></div>
+                <ul class="side-menu-list">
+                    <li><i class="fa-light fa-location-dot"></i>Address : <span>Amsterdam, 109-74</span></li>
+                    <li><i class="fa-light fa-phone"></i>Phone : <a href="tel:+01569896654">+01 569 896 654</a></li>
+                    <li><i class="fa-light fa-envelope"></i>Email : <a href="mailto:info@example.com">info@example.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.mobile-side-menu -->
+        <div class="mobile-side-menu-overlay"></div>
+
+        <div id="preloader">
+            <div class="spinner-logo"><img src="assets/img/favicon.png" alt="logo"></div>
+            <div class="spinner"></div>
+        </div>
+        <!-- ./ preloader -->
+
+        <section class="hero-section overflow-hidden">
+            <div class="shapes">
+                <div class="shape shape-1"><img src="assets/img/shapes/hero-shape-2.png" alt="shape"></div>
+                <div class="shape shape-2"><img src="assets/img/shapes/hero-shape-3.png" alt="shape"></div>
+                <div class="shape shape-3"><img src="assets/img/shapes/hero-shape-4.png" alt="shape"></div>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <div class="hero-content">
+                            <div class="section-heading mb-40">
+                                <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms"><span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Bem-vindo à FG Centro Educacional</h4>
+                                <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">Transforme seu futuro <br>começando hoje! <span>Educação de qualidade para você</span></h2>
+                            </div>
+                            <div class="hero-btn-wrap">
+                                <a href="https://api.whatsapp.com/send/?phone=556185443037&text&type=phone_number&app_absent=0" class="ed-primary-btn buy-btn" target="_blank" class="ed-primary-btn">Inscreva-se Agora</a>
+                            </div>
+                            <div class="hero-author">
+                                <ul>
+                                    <li><img src="assets/img/images/hero-author-1.png" alt="img"></li>
+                                    <li><img src="assets/img/images/hero-author-2.png" alt="img"></li>
+                                    <li><img src="assets/img/images/hero-author-3.png" alt="img"></li>
+                                    <li><img src="assets/img/images/hero-author-4.png" alt="img"></li>
+                                </ul>
+                                <h5><span>+5 mil</span> Alunos já formados</h5>
+                            </div>
+                            <h4 class="bottom-text">Descubra <span>Mais de 50</span> Cursos e Formações</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <div class="hero-img-wrap">
+                            <div class="hero-img">
+                                <img src="assets/img/images/hero-img-1.png" alt="hero">
+                            </div>
+                            <div class="hero-img-shape"><img src="assets/img/shapes/hero-shape-1.png" alt="shape"></div>
+                            <div class="hero-text-element">
+                                <h3 class="title"><span class="odometer" data-count="256">0</span><span class="number">+</span></h3>
+                                <p>Cursos Intensivos</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ hero-section -->
+
+        <section class="about-section pt-120 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="about-img-wrap wow fade-in-left" data-wow-delay="400ms">
+                            <div class="about-img-1">
+                                <img src="assets/img/images/about-img-4.jpg" alt="about">
+                            </div>
+                            <div class="about-img-2">
+                                <img src="assets/img/images/about-img-5.jpg" alt="about">
+                            </div>
+                            <div class="about-contact">
+                                <div class="icon"><i class="fa-sharp fa-regular fa-phone-volume"></i></div>
+                                <div class="content">
+                                    <span>Suporte online</span>
+                                    <a href="tel:+2581523659">(61) 3399-4549</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="about-content">
+                            <div class="section-heading mb-40">
+                                <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms"><span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Saiba Mais Sobre Nós</h4>
+                                <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">Mais de 10 Anos Transformando Vidas com Educação de Qualidade</h2>
+                                <p class="mt-20 wow fade-in-bottom" data-wow-delay="500ms">Na FG Centro Educacional, promovemos uma aprendizagem significativa e acessível, oferecendo desde a Educação Básica até Cursos Técnicos, com metodologias inovadoras e suporte completo aos nossos alunos.</p>
+                            </div>
+                            <div class="about-counter-items wow fade-in-bottom" data-wow-delay="600ms">
+                                <div class="about-counter-item">
+                                    <div class="icon"><img src="assets/img/icon/about-1.png" alt="about"></div>
+                                    <div class="content">
+                                        <h3 class="title"><span class="odometer" data-count="5">5</span><span class="number">k+</span></h3>
+                                        <p>Alunos já formados e preparados <br>para o mercado de trabalho</p>
+                                    </div>
+                                </div>
+                                <div class="about-counter-item">
+                                    <div class="icon"><img src="assets/img/icon/about-2.png" alt="about"></div>
+                                    <div class="content">
+                                        <h3 class="title"><span class="odometer" data-count="50">0</span><span class="number">+</span></h3>
+                                        <p>50+ Cursos e Formações <br>disponíveis</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about-btn wow fade-in-bottom" data-wow-delay="700ms">
+                                <a href="about.html" class="ed-primary-btn">Saiba Mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ about-section -->
+
+        <section class="course-category pt-120 pb-120">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms"><span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Nossos Cursos Mais Requisitados</h4>
+                    <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">Escolha a Área em que Deseja Estudar</h2>
+                </div>
+                <div class="category-items wow fade-in-bottom" data-wow-delay="500ms">
+                    <div class="category-item"><a href="course-details-eja.html"><span><img src="assets/img/icon/category-6.png" alt="icon"></span>Educação de Jovens e Adultos</a></div>
+                    <div class="category-item"><a href="course-details-fundamental.html"><span><img src="assets/img/icon/category-2.png" alt="icon"></span>Ensino Fundamental</a></div>
+                    <div class="category-item"><a href="course-details-medio.html"><span><img src="assets/img/icon/category-3.png" alt="icon"></span>Ensino Médio</a></div>
+                    <div class="category-item"><a href="course-details-eletrotecnica.html"><span><img src="assets/img/icon/category-4.png" alt="icon"></span>Curso Técnico em Eletrotécnica</a></div>
+                </div>
+                <div class="category-items wow fade-in-bottom" data-wow-delay="600ms">
+                    <div class="category-item"><a href="course-details-mecanica.html"><span><img src="assets/img/icon/category-5.png" alt="icon"></span>Curso Técnico em Mecânica</a></div>
+                    <div class="category-item"><a href="course-details-agrimensura.html"><span><img src="assets/img/icon/category-6.png" alt="icon"></span>Curso Técnico em Agrimensura</a></div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ course-category -->
+
+        <section class="promo-section pt-120 pb-120 overflow-hidden">
+            <div class="bg-item">
+                <div class="bg-shape-1"></div>
+                <div class="bg-shape-2"></div>
+            </div>
+            <div class="shapes">
+                <div class="shape shape-1"><img src="assets/img/shapes/promo-shape-1.png" alt="shape"></div>
+                <div class="shape shape-2"><img src="assets/img/shapes/promo-shape-2.png" alt="shape"></div>
+            </div>
+            <div class="container">
+                <div class="section-heading promo-heading text-center white-content">
+                    <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                        <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Por que Escolher a FG Centro Educacional?
+                    </h4>
+                    <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">Transforme seu Futuro com Educação de Qualidade</h2>
+                </div>
+                <div class="row gy-lg-0 gy-4 justify-content-center promo-wrap">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="promo-item white-content wow fade-in-bottom" data-wow-delay="200ms">
+                            <div class="promo-thumb">
+                                <img class="main-img" src="assets/img/images/promo-img-1.png" alt="promo">
+                                <div class="icon"> <img src="assets/img/icon/promo-4.png" alt="icon"></div>
+                            </div>
+                            <h3 class="title">Metodologia EAD Inovadora</h3>
+                            <p>Com materiais didáticos variados e uma plataforma <br>
+                               de ensino acessível, você estuda no seu ritmo <br>
+                               com tutoria online e presencial.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="promo-item white-content wow fade-in-bottom" data-wow-delay="400ms">
+                            <div class="promo-thumb">
+                                <img class="main-img" src="assets/img/images/promo-img-2.png" alt="promo">
+                                <div class="icon"> <img src="assets/img/icon/promo-3.png" alt="icon"></div>
+                            </div>
+                            <h3 class="title">Certificação Oficial</h3>
+                            <p>Receba um certificado reconhecido pelo MEC <br>
+                               que abre portas para o mercado de trabalho <br>
+                               e a continuidade dos seus estudos.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="promo-item item-3 white-content wow fade-in-bottom" data-wow-delay="500ms">
+                            <div class="promo-thumb">
+                                <img src="assets/img/images/promo-img-3.png" alt="promo">
+                                <div class="icon"> <img src="assets/img/icon/promo-1.png" alt="icon"></div>
+                            </div>
+                            <h3 class="title">Apoio ao Estudante</h3>
+                            <p>Oferecemos tutoria, plantões de dúvidas, <br>
+                               agendamento de avaliações e suporte contínuo <br>
+                               para garantir o seu sucesso acadêmico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ promo-section -->
+
+        <section class="feature-course pt-120 pb-120">
+            <div class="container">
+              <div class="section-heading text-center">
+                <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                    <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Cursos de Qualidade
+                </h4>
+                    <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">Explore Nossas Categorias de Cursos</h2>
+                </div>
+
+                <ul class="course-nav nav mb-40" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" data-category="all">Todas as Categorias</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="EJA">Educação de Jovens e Adultos</button>
+                      </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="Ensino Fundamental">Ensino Fundamental</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="Ensino Médio">Ensino Médio</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" data-category="Cursos Técnicos">Cursos Técnicos</button>
+                    </li>
+                </ul>
+
+          
+              <div class="course-tab-content tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                  <div class="row gy-4 justify-content-start" id="course-list">
+                    <!-- Os cursos são carregados dinamicamente aqui -->
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <!-- ./ course-section -->
+          
+        <section class="counter-section">
+            <div class="container">
+                <div class="row counter-wrap gy-lg-0 gy-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item item-1 white-content wow fade-in-bottom" data-wow-delay="200ms">
+                            <h3 class="title"><span class="odometer" data-count="50">0</span>+</h3>
+                            <p>Cursos Oferecidos</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item white-content wow fade-in-bottom" data-wow-delay="400ms">
+                            <h3 class="title"><span class="odometer" data-count="12000">0</span>+</h3>
+                            <p>Alunos Matriculados</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item white-content wow fade-in-bottom" data-wow-delay="500ms">
+                            <h3 class="title"><span class="odometer" data-count="98.5">0</span>%</h3>
+                            <p>Avaliação dos Alunos</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="counter-item item-4 white-content wow fade-in-bottom" data-wow-delay="600ms">
+                            <h3 class="title"><span class="odometer" data-count="92">0</span>%</h3>
+                            <p>Taxa de Conclusão</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ counter-section -->        
+
+        <section class="faq-section pt-120 pb-120">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-12">
+                        <div class="faq-img-wrap wow fade-in-left" data-wow-delay="400ms">
+                            <div class="faq-img">
+                                <img src="assets/img/images/faq-img-1.jpg" alt="faq">
+                            </div>
+                            <div class="faq-text-box">
+                                <h4 class="student">Total de Alunos</h4>
+                                <ul class="faq-thumb-list">
+                                    <li><img src="assets/img/images/hero-author-4.png" alt="faq"></li>
+                                    <li><img src="assets/img/images/hero-author-3.png" alt="faq"></li>
+                                    <li><img src="assets/img/images/hero-author-1.png" alt="faq"></li>
+                                    <li><img src="assets/img/images/hero-author-2.png" alt="faq"></li>
+                                    <li class="number">12,000+</li> <!-- Atualizar com o número real -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12">
+                        <div class="faq-content content-1">
+                            <div class="section-heading mb-30">
+                                <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                                    <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Perguntas Frequentes
+                                </h4>
+                                <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">
+                                    Informações Importantes Sobre Nossos Cursos
+                                </h2>
+                            </div>
+                            <div class="faq-accordion">
+                                <div class="accordion" id="accordionExample">
+                                    <div class="accordion-item wow fade-in-bottom" data-wow-delay="400ms">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                <span>01.</span>Quais cursos vocês oferecem?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Oferecemos cursos de Ensino Fundamental II e Ensino Médio via EAD, além de cursos técnicos como Eletrotécnica, Mecânica e Agrimensura. Nossa metodologia é centrada na aprendizagem flexível e suporte contínuo aos alunos.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                <span>02.</span>Como funciona a tutoria nos cursos?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                Os tutores estão disponíveis de segunda a sábado, oferecendo suporte pedagógico e técnico. As respostas às dúvidas são dadas em até 48 horas, garantindo orientação de qualidade e acompanhamento contínuo durante todo o curso.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item wow fade-in-bottom" data-wow-delay="200ms">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                <span>03.</span>Como é realizada a avaliação dos alunos?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                A avaliação ocorre em duas etapas: online pelo AVA, com exercícios e trabalhos, e presencial, com agendamento prévio. Isso garante que o aluno esteja devidamente preparado e avaliado de forma justa e precisa.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ faq-section -->
+
+        <section class="team-section">
+            <div class="team-wrap pt-120 pb-120" data-background="assets/img/bg-img/team-bg.png">
+                <div class="container">
+                    <div class="section-heading text-center">
+                        <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                            <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Nossos Tutores
+                        </h4>
+                        <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">
+                            Conheça Nossa Equipe de Educação EAD
+                        </h2>
+                    </div>
+                    <div class="row gy-xl-0 gy-4 justify-content-center">
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="team-item wow fade-in-bottom" data-wow-delay="200ms">
+                                <div class="team-thumb">
+                                    <img src="assets/img/team/client-ana.webp" alt="team">
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="title"><a href="teachers.html">Ana Paula Silva</a></h3>
+                                    <span>Tutora do Ensino Fundamental</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="team-item wow fade-in-bottom" data-wow-delay="400ms">
+                                <div class="team-thumb">
+                                    <img src="assets/img/team/client-carlos.webp" alt="team">
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="title"><a href="teachers.html">Carlos Eduardo Souza</a></h3>
+                                    <span>Tutor de Ensino Médio</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="team-item wow fade-in-bottom" data-wow-delay="500ms">
+                                <div class="team-thumb">
+                                    <img src="assets/img/team/client-fernanda.webp" alt="team">
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="title"><a href="teachers.html">Fernanda Ribeiro</a></h3>
+                                    <span>Tutora de Eletrotécnica</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6">
+                            <div class="team-item wow fade-in-bottom" data-wow-delay="600ms">
+                                <div class="team-thumb">
+                                    <img src="assets/img/team/client-joao.webp" alt="team">
+                                    <ul class="team-social">
+                                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="team-content">
+                                    <h3 class="title"><a href="teachers.html">José Martins</a></h3>
+                                    <span>Tutor de Mecânica</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ team-section -->
+        
+        <section class="content-section pt-120 pb-120 overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="content-img-wrap wow fade-in-left" data-wow-delay="400ms">
+                            <div class="content-img-1"><img src="assets/img/images/content-img-5.jpg" alt="img"></div>
+                            <div class="content-img-2"><img src="assets/img/images/content-img-6.jpg" alt="img"></div>
+                            <div class="content-img-3"><img src="assets/img/images/content-img-7.jpg" alt="img"></div>
+                            <div class="border-shape"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="content-info">
+                            <div class="section-heading mb-20">
+                                <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                                    <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>Início da Nossa Jornada
+                                </h4>
+                                <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">
+                                    Educação que Transforma para um Futuro Melhor
+                                </h2>
+                            </div>
+                            <p class="mb-30 wow fade-in-bottom" data-wow-delay="500ms">
+                                Nossa missão é promover ensino de qualidade, preparando cidadãos para enfrentar desafios, obter novas habilidades e alcançar seus objetivos com base em valores éticos e humanos.
+                            </p>
+                            <div class="content-item mb-30 wow fade-in-bottom" data-wow-delay="600ms">
+                                <div class="icon"><img src="assets/img/icon/content-1.png" alt="icon"></div>
+                                <div class="content">
+                                    <h4 class="title">Tutoria Personalizada</h4>
+                                    <p>
+                                        Oferecemos acompanhamento contínuo com tutores qualificados, que orientam, respondem dúvidas e ajudam no desenvolvimento acadêmico em até 48 horas.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="content-item wow fade-in-bottom" data-wow-delay="700ms">
+                                <div class="icon"><img src="assets/img/icon/content-2.png" alt="icon"></div>
+                                <div class="content">
+                                    <h4 class="title">Metodologia Inovadora</h4>
+                                    <p>
+                                        A metodologia inclui videoaulas, apostilas, fóruns e plantões de dúvidas, tudo disponível na plataforma AVA, focada na construção colaborativa do conhecimento.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ./ content-section -->        
+
+        <section class="request-section" data-background="assets/img/bg-img/request-bg.png">
+            <div class="bg-img" data-background="assets/img/images/request-img-1.png"></div>
+            <div class="shape"><img src="assets/img/shapes/req-shape-1.png" alt="shape"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6"></div>
+                    <div class="col-xl-6 col-lg-12">
+                        <div class="request-content white-content pt-120 pb-120">
+                            <div class="section-heading white-content mb-20">
+                                <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                                    <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>
+                                    Inscreva-se na nossa Newsletter
+                                </h4>
+                                <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">
+                                    Descubra nossos cursos e oportunidades
+                                </h2>
+                            </div>
+                            <p class="desc mb-20 wow fade-in-bottom" data-wow-delay="400ms">
+                                Participe do nosso centro educacional e explore cursos inovadores para seu desenvolvimento pessoal e profissional.
+                            </p>
+                            <div class="request-form-wrapper wow fade-in-bottom" data-wow-delay="500ms">
+                                <form action="mail.php">
+                                    <div class="form-items">
+                                        <div class="form-item">
+                                            <input type="text" id="name" name="name" class="form-control" placeholder="Seu Nome">
+                                        </div>
+                                        <div class="form-item">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Seu E-mail">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="request-btn wow fade-in-bottom" data-wow-delay="600ms">
+                                <button class="ed-primary-btn">Inscreva-se Agora</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- ./ request-section -->
+
+        <section class="blog-section pt-120 pb-120">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h4 class="sub-heading wow fade-in-bottom" data-wow-delay="200ms">
+                        <span class="heading-icon"><i class="fa-sharp fa-solid fa-bolt"></i></span>
+                        Últimas Notícias
+                    </h4>
+                    <h2 class="section-title wow fade-in-bottom" data-wow-delay="400ms">Fique Atualizado</h2>
+                </div>
+                <div class="row gy-md-0 gy-4">
+                    <div class="col-md-6">
+                        <div class="post-card post-card-1 wow fade-in-bottom" data-wow-delay="200ms">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/blog-details-img-escolher.png" alt="post">
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="post-content">
+                                    <span class="category">Educação</span>
+                                    <h3 class="title"><a href="blog-details-escolha.html">Como escolher o curso técnico ideal para você?</a></h3>
+                                    <ul class="post-meta">
+                                        <li><i class="fa-sharp fa-regular fa-clock"></i>15 de agosto de 2024</li>
+                                        <li><i class="fa-sharp fa-regular fa-folder"></i>Notícias</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="post-card post-card-1 wow fade-in-bottom" data-wow-delay="400ms">
+                            <div class="post-thumb">
+                                <img src="assets/img/blog/blog-details-img-mercado.jpg" alt="post">
+                            </div>
+                            <div class="post-content-wrap">
+                                <div class="post-content">
+                                    <span class="category">Oportunidades</span>
+                                    <h3 class="title"><a href="blog-details-mercado.html">Dicas para se destacar no mercado de trabalho</a></h3>
+                                    <ul class="post-meta">
+                                        <li><i class="fa-sharp fa-regular fa-clock"></i>15 de agosto de 2024</li>
+                                        <li><i class="fa-sharp fa-regular fa-folder"></i>Notícias</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+        <!-- ./ blog-section -->
+
+        <footer class="footer-section pt-120" data-background="assets/img/bg-img/footer-bg.png">
+            <div class="footer-top-wrap">
+                <div class="container">
+                    <div class="footer-top text-center">
+                        <h2 class="title">Inscreva-se em nossa Newsletter<br>e receba as últimas novidades</h2>
+                        <div class="footer-form-wrap">
+                            <form action="mail.php" class="footer-form">
+                                <div class="form-item">
+                                    <input type="email" id="email-2" name="email" class="form-control" placeholder="Digite seu e-mail">
+                                    <div class="icon"><i class="fa-light fa-envelope"></i></div>
+                                </div>
+                                <button class="ed-primary-btn">Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row footer-wrap">
+                        <!-- Contato -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h3 class="widget-header">Contato</h3>
+                                <p class="mb-30">Estamos disponíveis para esclarecer suas dúvidas e ajudá-lo.</p>
+                                <div class="footer-contact">
+                                    <span class="number"><i class="fa-regular fa-phone"></i><a href="tel:+5561985443037">(61) 98544-3037</a></span>
+                                    <a href="mailto:fgcursostecnicos@gmail.com" class="mail">fgcursostecnicos@gmail.com</a>
+                                </div>
+                                <ul class="footer-social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Informações da Empresa -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget-2">
+                                <h3 class="widget-header">Informações</h3>
+                                <ul class="footer-list">
+                                    <li><a href="about.html">Quem Somos</a></li>
+                                    <li><a href="contact.html">Fale Conosco</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Links Úteis -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget-2">
+                                <h3 class="widget-header">Links Úteis</h3>
+                                <ul class="footer-list">
+                                    <li><a href="course.html">Todos os Cursos</a></li>
+                                    <li><a href="blog-grid.html">Notícias & Blogs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Posts Recentes -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h3 class="widget-header">Postagens Recentes</h3>
+                                <div class="sidebar-post mb-20">
+                                    <img src="assets/img/blog/blog-thumb.png" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">Como Escolher o Curso Técnico Ideal para Você?</a></h3>
+                                        <ul class="post-meta">
+                                            <li><i class="fa-light fa-calendar"></i>15 de agosto, 2024</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <img src="assets/img/blog/blog-thumb2.jpg" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">Dicas para se destacar no mercado de trabalho</a></h3>
+                                        <ul class="post-meta">
+                                            <li><i class="fa-light fa-calendar"></i>15 de agosto, 2024</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Direitos Autorais -->
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="copyright-content">
+                        <p>Copyright © 2024 FG Centro Educacional. Todos os Direitos Reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ./ footer-section -->
+
+        <div id="scrollup">
+            <button id="scroll-top" class="scroll-to-top"><i class="fa-regular fa-arrow-up-long"></i></button>
+        </div>
+        <!--scrollup-->
+
+        <!-- JS here -->
+        <script src="assets/js/courses.js"></script>
+        <script src="assets/js/vendor/jquary-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-bundle.js"></script>
+        <script src="assets/js/vendor/jquery.isotope.js"></script>
+        <script src="assets/js/vendor/waypoints.min.js"></script>
+        <script src="assets/js/vendor/moment.min.js"></script>
+        <script src="assets/js/vendor/daterangepicker.min.js"></script>
+        <script src="assets/js/vendor/venobox.min.js"></script>
+        <script src="assets/js/vendor/odometer.min.js"></script>
+        <script src="assets/js/vendor/countdown.js"></script>
+        <script src="assets/js/vendor/meanmenu.js"></script>
+        <script src="assets/js/vendor/smooth-scroll.js"></script>
+        <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
+        <script src="assets/js/vendor/wow.min.js"></script>
+        <script src="assets/js/vendor/nice-select.js"></script>
+        <script src="assets/js/vendor/swiper.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

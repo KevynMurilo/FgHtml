@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+
+        <!-- Site Title -->
+        <title>EdCare - Online Education LMS HTML5 Template</title>
+
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+
+        <!-- CSS here -->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+        <link rel="stylesheet" href="assets/css/venobox.min.css">
+        <link rel="stylesheet" href="assets/css/animate.min.css">
+        <link rel="stylesheet" href="assets/css/keyframe-animation.css">
+        <link rel="stylesheet" href="assets/css/odometer.min.css">
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <link rel="stylesheet" href="assets/css/daterangepicker.css">
+        <link rel="stylesheet" href="assets/css/swiper.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+
+    <body>
+     <!-- header-area-start -->
+     <header class="header header-3 sticky-active">
+        <div class="top-bar">
+            <div class="container">
+                <div class="top-bar-inner">
+                    <div class="top-bar-left">
+                        <ul class="top-bar-list">
+                            <li><i class="fa-regular fa-phone"></i><a href="https://wa.me/556133994549">(61) 3399-4549</a></li>
+                            <li><i class="fa-regular fa-location-dot"></i><a href="https://www.google.com/maps?ll=-15.884825,-48.018761&z=16&t=m&hl=pt-BR&gl=BR&mapclient=embed&cid=16391685448053457736" target="_blank"><span>QS 6 CONJ 01 LOTE 15 - Riacho Fundo I, Brasília - DF</span></a></li>
+                            <li><i class="fa-brands fa-whatsapp"></i><a href="https://wa.me/556185443037"><span>(61) 9 8544-3037</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="top-bar-right">
+                        <div class="register-box">
+                            <div class="icon"><i class="fa-regular fa-user"></i></div>
+                            <a href="#">Login / Register</a>
+                        </div>
+                        <div class="top-social-wrap">
+                            <span>Siga-nos</span>
+                            <ul class="social-list">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="primary-header">
+            <div class="container">
+                <div class="primary-header-inner">
+                    <div class="header-logo d-lg-block">
+                        <a href="index.html">
+                            <img src="assets/img/logo/logo-1.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="header-menu-wrap">
+                        <div class="mobile-menu-items">
+                            <ul class="sub-menu">
+                                <li class="active">
+                                    <a href="index.html">Início</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="course.html">Cursos</a>
+                                    <ul>
+                                        <li><a href="course-details-eja.html">EJA/EAD</a></li>
+                                        <li><a href="course-details-fundamental.html">Ensino Fundamental</a></li>
+                                        <li><a href="course-details-medio.html">Ensino Médio</a></li>
+                                        <li class="menu-item-has-children">
+                                            <a href="course.html">Cursos Técnicos</a>
+                                            <ul>
+                                                <li><a href="course-details-eletrotecnica.html">Eletrotécnica</a></li>
+                                                <li><a href="course-details-mecanica.html">Mecânica</a></li>
+                                                <li><a href="course-details-agrimensura.html">Agrimensura</a></li>
+    
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="">
+                                    <a href="about.html">Quem somos</a>
+                                </li>
+                                <li class="">
+                                    <a href="blog-grid.html">Blog</a>
+                                </li>
+                                <li class="">
+                                    <a href="contact.html">Contato</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /.header-menu-wrap -->
+                    <div class="header-right-wrap">
+                        <div class="header-right">
+                            <!-- Botão para Fazer Login ou Entrar -->
+                            <a href="login.html" class="ed-primary-btn header-btn">Fazer Login</a>
+                            <!-- Logo Oculta em Telas Maiores -->
+                            <div class="header-logo d-none d-lg-none">
+                                <a href="index.html">
+                                    <img src="assets/img/logo/logo-1.png" alt="Logo">
+                                </a>
+                            </div>
+                            <!-- Menu Lateral Mobile -->
+                            <div class="header-right-item d-lg-none d-md-block">
+                                <a href="javascript:void(0)" class="mobile-side-menu-toggle">
+                                    <i class="fa-sharp fa-solid fa-bars"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- /.header-right -->
+                    </div>
+                </div>
+                <!-- /.primary-header-inner -->
+            </div>
+        </div>
+    </header>
+    <!-- /.Main Header -->
+
+        <div id="popup-search-box">
+            <div class="box-inner-wrap d-flex align-items-center">
+                <form id="form" action="#" method="get" role="search">
+                    <input id="popup-search" type="text" name="s" placeholder="Type keywords here...">
+                </form>
+                <div class="search-close"><i class="fa-sharp fa-regular fa-xmark"></i></div>
+            </div>
+        </div>
+        <!-- /#popup-search-box -->
+
+        <div class="mobile-side-menu">
+            <div class="side-menu-content">
+                <div class="side-menu-head">
+                    <a href="index.html"><img src="assets/img/logo/logo-1.png" alt="logo"></a>
+                    <button class="mobile-side-menu-close"><i class="fa-regular fa-xmark"></i></button>
+                </div>
+                <div class="side-menu-wrap"></div>
+                <ul class="side-menu-list">
+                    <li><i class="fa-light fa-location-dot"></i>Address : <span>Amsterdam, 109-74</span></li>
+                    <li><i class="fa-light fa-phone"></i>Phone : <a href="tel:+01569896654">+01 569 896 654</a></li>
+                    <li><i class="fa-light fa-envelope"></i>Email : <a href="mailto:info@example.com">info@example.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- /.mobile-side-menu -->
+        <div class="mobile-side-menu-overlay"></div>
+
+        <div id="preloader">
+            <div class="spinner-logo"><img src="assets/img/favicon.png" alt="logo"></div>
+            <div class="spinner"></div>
+        </div>
+        <!-- ./ preloader -->
+
+        <section class="page-header">
+            <div class="bg-item">
+                <div class="overlay"></div>
+                <div class="shapes">
+                    <div class="shape shape-1"><img src="assets/img/shapes/page-header-shape-1.png" alt="shape"></div>
+                    <div class="shape shape-2"><img src="assets/img/shapes/page-header-shape-2.png" alt="shape"></div>
+                    <div class="shape shape-3"><img src="assets/img/shapes/page-header-shape-3.png" alt="shape"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="title">Ensino Fundamental – II (EAD)</h1>
+                    <h4 class="sub-title"><a class="home" href="index.html">Início </a><span class="icon">/</span><a class="inner-page" href="course-details.html">Detalhes do Curso</a></h4>
+                </div>
+            </div>
+        </section>
+        <!-- ./ page-header -->
+
+        <section class="course-details pt-120 pb-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-9 col-lg-12">
+                        <div class="course-details-content">
+                            <div class="course-details-img">
+                                <img src="assets/img/service/course-details-fundamental.jpg" alt="curso-ensino-fundamental-2">
+                            </div>
+                            <div class="details-inner">
+                                <ul class="details-meta">
+                                    <li>Mais Vendido</li>
+                                    <li>Último Lançamento</li>
+                                </ul>
+                                <h2 class="title">Ensino Fundamental II – EJA (Educação de Jovens e Adultos)</h2>
+                                <ul class="course-details-list">
+                                    <li><img src="assets/img/service/course-details-author.png" alt="autor"><span>Instrutor:</span> FG Centro Educacional</li>
+                                    <li><i class="fa-solid fa-tags"></i> Educação a Distância (EAD)</li>
+                                    <li><i class="fa-light fa-calendar"></i>Início: Janeiro, 2024</li>
+                                    <li class="review-wrap">
+                                        <ul>
+                                            <li><i class="fa-sharp fa-regular fa-star"></i></li>
+                                            <li><i class="fa-sharp fa-regular fa-star"></i></li>
+                                            <li><i class="fa-sharp fa-regular fa-star"></i></li>
+                                            <li><i class="fa-sharp fa-regular fa-star"></i></li>
+                                            <li><i class="fa-sharp fa-regular fa-star"></i></li>
+                                        </ul>
+                                        (5.00)
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="course-details-tab">
+                                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"><i class="fa-sharp fa-regular fa-bookmark"></i>Visão Geral</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"><i class="fa-regular fa-book"></i>Aulas</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false"><i class="fa-regular fa-user"></i>Instrutor</button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="contact-tab-2" data-bs-toggle="tab" data-bs-target="#contact-2" type="button" role="tab" aria-controls="contact-2" aria-selected="false"><i class="fa-regular fa-star"></i>Avaliações</button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="myTabContent">
+                                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                        <div class="tab-overview">
+                                            <h3 class="title">Descrição</h3>
+                                            <p class="mb-30">O curso de Ensino Fundamental II é destinado a jovens a partir de 15 anos completos que não concluíram essa etapa entre o 6º e 9º ano do ensino fundamental. A duração média do curso é de 2 anos, com 6 semestres por série. A modalidade é 100% a distância, permitindo flexibilidade para que o aluno organize seus horários e conclua o curso no seu próprio ritmo.</p>
+        
+                                            <h3 class="title">Disciplinas</h3>
+                                            <ul class="px-4 pb-4">
+                                                <li>Língua Portuguesa</li>
+                                                <li>Ciências</li>
+                                                <li>Matemática</li>
+                                                <li>Inglês</li>
+                                                <li>Artes</li>
+                                                <li>Educação Física</li>
+                                                <li>História</li>
+                                                <li>Geografia</li>
+                                            </ul>
+        
+                                            <h3 class="title">Carga Horária</h3>
+                                            <p class="mb-30">O curso é desenvolvido por meio da educação à distância e possui 4 módulos, com 400 horas por série/ano, totalizando 1600 horas ao longo do curso.</p>
+        
+                                            <h3 class="title">Certificação</h3>
+                                            <p class="mb-30">Após a conclusão do curso, o aluno aprovado receberá uma declaração e um histórico escolar de conclusão do Ensino Fundamental II – EJA. O certificado será emitido após o registro e publicação da conclusão pelo FG Centro Educacional.</p>
+        
+                                            <h3 class="title">Recursos Didáticos</h3>
+                                            <p class="mb-30">O curso oferece uma plataforma rica em recursos didáticos, que inclui acesso a biblioteca virtual, manual do aluno, tutoria online e presencial, exercícios, chats, fóruns, plantões de dúvidas e encontros pedagógicos presenciais conforme o calendário escolar.</p>
+        
+                                            <h3 class="title">Metodologia</h3>
+                                            <p class="mb-30">A metodologia do curso é baseada em um sistema de ensino a distância com o apoio de uma equipe pedagógica multidisciplinar. Além do conteúdo digital, os alunos têm acesso a tutoria online e presencial, materiais complementares e suporte contínuo para garantir um bom desempenho acadêmico.</p>
+        
+                                            <h3 class="title">Tutorias</h3>
+                                            <p class="mb-30">Os tutores atuam como mediadores e orientadores, auxiliando os alunos com o conteúdo do curso, respondendo dúvidas e oferecendo suporte contínuo durante toda a formação. As tutorias estão disponíveis de segunda a sábado, com tempo de resposta de até 48 horas.</p>
+        
+                                            <h3 class="title">Avaliação</h3>
+                                            <p class="mb-30">A avaliação do curso é feita em duas etapas: a primeira por meio de atividades e avaliações online no Ambiente Virtual de Aprendizagem (AVA); a segunda, presencialmente, na sede do FG Centro Educacional, mediante agendamento prévio no site da instituição.</p>
+                                        </div>
+                                    </div>
+                                    <div class="curriculam-area">
+                                        <div class="accordion" id="accordionExample">
+                                    
+                                            <!-- MÓDULO I -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingMod1">
+                                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMod1" aria-expanded="true" aria-controls="collapseMod1">
+                                                        MÓDULO I - 1hr 30min
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseMod1" class="accordion-collapse collapse show" aria-labelledby="headingMod1" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <ul class="curri-list">
+                                                            <li><span><i class="fa-regular fa-file-lines"></i> Unidade I - ApresentaçãoPágina</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-video"></i> Unidade I - Vídeo-aula</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-video"></i> Unidade I - Vídeo-aula complementar</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-book"></i> Unidade I - Material DidáticoURL</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-clipboard"></i> Unidade I - Exercícios avaliativosQuestionário</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-calculator"></i> Matemática</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-flask"></i> Ciências</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-landmark"></i> História</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Geografia</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                            <!-- MÓDULO II -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingMod2">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMod2" aria-expanded="false" aria-controls="collapseMod2">
+                                                        MÓDULO II - 2hr 30min
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseMod2" class="accordion-collapse collapse" aria-labelledby="headingMod2" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <ul class="curri-list">
+                                                            <li><span><i class="fa-regular fa-book"></i> Língua Portuguesa II</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-dumbbell"></i> Educação Física II</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Língua Inglesa II</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-palette"></i> Arte II</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-calculator"></i> Matemática II</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-landmark"></i> História II</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Geografia II</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                            <!-- MÓDULO III -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingMod3">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMod3" aria-expanded="false" aria-controls="collapseMod3">
+                                                        MÓDULO III - 1hr 50min
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseMod3" class="accordion-collapse collapse" aria-labelledby="headingMod3" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <ul class="curri-list">
+                                                            <li><span><i class="fa-regular fa-book"></i> Língua Portuguesa III</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Língua Inglesa III</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-dumbbell"></i> Educação Física III</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-palette"></i> Arte III</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-calculator"></i> Matemática III</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-flask"></i> Ciências III</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-landmark"></i> História III</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Geografia III</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                            <!-- MÓDULO IV -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingMod4">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMod4" aria-expanded="false" aria-controls="collapseMod4">
+                                                        MÓDULO IV - 2hr 20min
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseMod4" class="accordion-collapse collapse" aria-labelledby="headingMod4" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <ul class="curri-list">
+                                                            <li><span><i class="fa-regular fa-book"></i> Língua Portuguesa IV</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Língua Inglesa IV</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-dumbbell"></i> Educação Física IV</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-palette"></i> Arte IV</span> <span>Lição <i class="fa-regular fa-lock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-calculator"></i> Matemática IV</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-flask"></i> Ciências IV</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-landmark"></i> História IV</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-globe"></i> Geografia IV</span> <span>Lição <i class="fa-regular fa-unlock"></i></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                    
+                                            <!-- PROJETO INTERDISCIPLINAR ELETIVO -->
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header" id="headingProjeto">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseProjeto" aria-expanded="false" aria-controls="collapseProjeto">
+                                                        PROJETO INTERDISCIPLINAR ELETIVO - 1hr
+                                                    </button>
+                                                </h2>
+                                                <div id="collapseProjeto" class="accordion-collapse collapse" aria-labelledby="headingProjeto" data-bs-parent="#accordionExample">
+                                                    <div class="accordion-body">
+                                                        <ul class="curri-list">
+                                                            <li><span><i class="fa-regular fa-comments"></i> Rotinas Administrativas Fórum</span> <span>Fórum <i class="fa-regular fa-unlock"></i></span></li>
+                                                            <li><span><i class="fa-regular fa-comments"></i> Redação Empresarial Fórum</span> <span>Fórum <i class="fa-regular fa-unlock"></i></span></li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                    <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                        <div class="row team-wrap-2 gy-lg-0 gy-4 justify-content-center">
+                                            <div class="col-lg-4 col-md-6">
+                                                <div class="team-item-3 team-item-5">
+                                                    <div class="team-thumb">
+                                                        <div class="team-men">
+                                                            <img src="assets/img/team/team-men-1.png" alt="team">
+                                                        </div>
+                                                    </div>
+                                                    <div class="team-content">
+                                                        <h3 class="title">Equipe FG Centro Educacional</h3>
+                                                        <span>Equipe de Instrutores</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="contact-2" role="tabpanel" aria-labelledby="contact-tab-2">
+                                        <div class="reviewr-wrap">
+                                            <div class="review-list">
+                                                <div class="review-item">
+                                                    <div class="review-thumb">
+                                                        <img src="assets/img/shop/review-list-1.jpg" alt="img">
+                                                    </div>
+                                                    <div class="content">
+                                                        <div class="content-top">
+                                                            <h4 class="name">Lucas Almeida <span>06 Dezembro, 2023</span></h4>
+                                                            <ul class="review">
+                                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                                                <li><i class="fa-sharp fa-solid fa-star"></i></li>
+                                                            </ul>
+                                                        </div>
+                                                        <p>Curso excelente, muito bem organizado e com materiais de apoio de alta qualidade. O ambiente virtual facilita bastante o aprendizado!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-12">
+                        <div class="course-sidebar price-box">
+                            <h4 class="price">R$___,__ <span>25% off</span></h4>
+                            <a href="https://api.whatsapp.com/send/?phone=556185443037&text&type=phone_number&app_absent=0" class="ed-primary-btn buy-btn" target="_blank">Saiba Mais</a>
+                        </div>
+                        <div class="course-sidebar sticky-widget">
+                            <h4 class="sidebar-title">Informações do Curso</h4>
+                            <ul class="course-sidebar-list">
+                                <li><i class="fa-regular fa-house-chimney"></i> Instrutor: <span>FG Centro Educacional</span></li>
+                                <li><i class="fa-regular fa-book"></i> Aulas: <span>8</span></li>
+                                <li><i class="fa-regular fa-clock"></i> Duração: <span>2 anos</span></li>
+                                <li><i class="fa-regular fa-tag"></i> Nível do Curso: <span>Educação Básica</span></li>
+                                <li><i class="fa-regular fa-globe"></i> Idioma: <span>Português</span></li>
+                                <li><i class="fa-regular fa-puzzle-piece"></i> Quizzes: <span>04</span></li>
+                            </ul>
+                            <div class="share-btn">
+                                <button class="ed-primary-btn"><i class="fa-regular fa-share-nodes"></i>Compartilhar Este Curso</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="footer-section pt-120" data-background="assets/img/bg-img/footer-bg.png">
+            <div class="footer-top-wrap">
+                <div class="container">
+                    <div class="footer-top text-center">
+                        <h2 class="title">Inscreva-se em nossa Newsletter<br>e receba as últimas novidades</h2>
+                        <div class="footer-form-wrap">
+                            <form action="mail.php" class="footer-form">
+                                <div class="form-item">
+                                    <input type="email" id="email-2" name="email" class="form-control" placeholder="Digite seu e-mail">
+                                    <div class="icon"><i class="fa-light fa-envelope"></i></div>
+                                </div>
+                                <button class="ed-primary-btn">Cadastrar</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="row footer-wrap">
+                        <!-- Contato -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h3 class="widget-header">Contato</h3>
+                                <p class="mb-30">Estamos disponíveis para esclarecer suas dúvidas e ajudá-lo.</p>
+                                <div class="footer-contact">
+                                    <span class="number"><i class="fa-regular fa-phone"></i><a href="tel:+5561985443037">(61) 98544-3037</a></span>
+                                    <a href="mailto:fgcursostecnicos@gmail.com" class="mail">fgcursostecnicos@gmail.com</a>
+                                </div>
+                                <ul class="footer-social">
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Informações da Empresa -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget-2">
+                                <h3 class="widget-header">Informações</h3>
+                                <ul class="footer-list">
+                                    <li><a href="about.html">Quem Somos</a></li>
+                                    <li><a href="contact.html">Fale Conosco</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Links Úteis -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget widget-2">
+                                <h3 class="widget-header">Links Úteis</h3>
+                                <ul class="footer-list">
+                                    <li><a href="course.html">Todos os Cursos</a></li>
+                                    <li><a href="blog-grid.html">Notícias & Blogs</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Posts Recentes -->
+                        <div class="col-lg-3 col-md-6">
+                            <div class="footer-widget">
+                                <h3 class="widget-header">Postagens Recentes</h3>
+                                <div class="sidebar-post mb-20">
+                                    <img src="assets/img/blog/blog-thumb.png" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">Como Escolher o Curso Técnico Ideal para Você?</a></h3>
+                                        <ul class="post-meta">
+                                            <li><i class="fa-light fa-calendar"></i>15 de agosto, 2024</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <img src="assets/img/blog/blog-thumb2.jpg" alt="post">
+                                    <div class="post-content">
+                                        <h3 class="title"><a href="#">Dicas para se destacar no mercado de trabalho</a></h3>
+                                        <ul class="post-meta">
+                                            <li><i class="fa-light fa-calendar"></i>15 de agosto, 2024</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Direitos Autorais -->
+            <div class="copyright-area">
+                <div class="container">
+                    <div class="copyright-content">
+                        <p>Copyright © 2024 FG Centro Educacional. Todos os Direitos Reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- ./ footer-section -->
+
+        <div id="scrollup">
+            <button id="scroll-top" class="scroll-to-top"><i class="fa-regular fa-arrow-up-long"></i></button>
+        </div>
+        <!--scrollup-->
+
+        <!-- JS here -->
+        <script src="assets/js/vendor/jquary-3.6.0.min.js"></script>
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-bundle.js"></script>
+        <script src="assets/js/vendor/jquery.isotope.js"></script>
+        <script src="assets/js/vendor/waypoints.min.js"></script>
+        <script src="assets/js/vendor/moment.min.js"></script>
+        <script src="assets/js/vendor/daterangepicker.min.js"></script>
+        <script src="assets/js/vendor/venobox.min.js"></script>
+        <script src="assets/js/vendor/odometer.min.js"></script>
+        <script src="assets/js/vendor/countdown.js"></script>
+        <script src="assets/js/vendor/meanmenu.js"></script>
+        <script src="assets/js/vendor/smooth-scroll.js"></script>
+        <script src="assets/js/vendor/imagesloaded-pkgd.js"></script>
+        <script src="assets/js/vendor/wow.min.js"></script>
+        <script src="assets/js/vendor/nice-select.js"></script>
+        <script src="assets/js/vendor/swiper.min.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
